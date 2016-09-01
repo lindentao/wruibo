@@ -1,0 +1,96 @@
+html,body,ul,div,span,input,p,h1,h2,h3{  margin: 0px;  padding: 0px;  display: block;  }
+body{  line-height: 22px;  }
+.wrap{  width: 100%;  overflow: hidden;  position: relative;  clear: both;  }
+.top{  width: 100%;  height: 30px;  }
+.navbar{  width: 1200px;  margin: 0 auto;  }
+.lg_srh{  width: 100%;  overflow: hidden;  position: relative;  }
+.logo_srh{  width: 400px;  float: left;  }
+.logo{  padding: 1px 0px 23px 168px;  float: left;
+}
+.logo_text{  margin-right: 0px;  float: left;  padding: 7px 0px 23px 20px;  }
+.com_name{  color: #262626;  font-size: 22px;  font-family: 微软雅黑;  padding: 7px 0px 0px 10px;  }
+.com_url{  color: #333333;  font-family: Arial;  font-size: 14px;  }
+
+.nav li{  float: left;  position: relative;  padding-top: 12px;  text-align: center;  }
+.nav{  height: 81px;  }
+li {  list-style-type:none;  padding: 12px 24px 12px 24px;  }
+.nav-top{  font-size: 16px;  color: #1a1a1a;  font-family: 微软雅黑;  }
+.nav-bottom{  font-size: 10px;  font-family:Arial;  color: #4d4d4d;  padding-bottom: 5px;  }
+.nav li:hover{  background-image: url("../images/choose.png");  color:#ff0000  }
+a{  text-decoration:none;  }
+.nav li:hover .nav-top{color:#ff0000;}
+.nav li:hover .nav-bottom{color:#ff0000;  background-image: url("../images/选中横条.png");  background-repeat:no-repeat;  background-position: bottom;  }
+
+.show_pic{  width: 1200px;  margin: 0 auto;  }
+.pic{  width: 100%;  overflow: hidden;  position: relative;  }
+.show_img{  padding: 0px 0px 60px 88px;  }
+.com_main{  width: 1200px;  margin: 0 auto;  }
+.com_pre{  width: 100%;  overflow: hidden;  position: relative;  }
+.com_text{  width: 500px; ;  padding: 0px 44px 60px 137px;  float: left;  }
+.com_pro{  color: #1b99e8;  font-size: 22px;  font-family: Aparajita;  padding-bottom: 12px;
+}
+.com_intr{  color: #333333;font-size: 22px;font-family: 微软雅黑;  padding-bottom: 30px;
+}
+.com_xi{line-height:30px;color: #4d4d4d;font-size: 14px;font-family: 微软雅黑;text-indent: 2em}
+.com_detail{float:right}
+.com_cult{  width: 1200px;  margin: 0 auto;  }
+.com_culture{  width: 100%;  overflow: hidden;  position: relative;  }
+.comp_culture{color: #333333;font-size: 22px;font-family: 微软雅黑;  padding-bottom: 30px;}
+.cult_pic{
+    padding: 0px 0px 60px 125px;float: left;
+}
+.cult_detail{padding-left:40px;float:left;width: 560px;height: 290px;background-color: #EDEDED}
+.text_pre{font-size: 18px;color: #333333;font-family: 微软雅黑;padding-bottom: 10px}
+.text_afr{padding-bottom:20px;text-indent: 2em;color: #4d4d4c;font-family: 微软雅黑;font-size: 16px}
+
+.pro_intro{  width: 1200px;  margin: 0 auto;  }
+.pro_info{  text-align:center;width: 100%;  overflow: hidden;  position: relative;  }
+.pro_case{color: #1b99e8;  font-size: 22px;  font-family: Aparajita;  padding-bottom: 12px;}
+.pro_info{color: #333333;font-size: 22px;font-family: 微软雅黑;  padding-bottom: 30px;}
+
+.pic_alt{  width: 1200px;  margin: 0 auto;  }
+.pic_alter{  text-align:center;width: 100%;  overflow: hidden;  position: relative;  }
+.arrow_left{padding:100px 15px 25px 125px;float: left}
+.pic_1{float: left;padding-right: 10px}
+.pic_2{float: left;padding-right: 10px}
+.pic_3{float: left;padding-right: 15px}
+.arrow_right{padding: 100px}
+.pic_more{padding:25px 0px 50px 0px;text-align: center}
+.more_pro{text-align: center;padding: 25px 0px 50px 0px}
+
+.concant{  width: 1200px;  margin: 0 auto;  }
+.con_main{  text-align:center;width: 100%;  overflow: hidden;  position: relative;  }
+.con_detail{text-align:center;width: 100%;  overflow: hidden;  position: relative;}
+.con_pro{ text-align: center; color: #1b99e8;  font-size: 22px;  font-family: Aparajita;  padding-bottom: 12px;
+}
+.con_we{  text-align:center;color: #333333;font-size: 22px;font-family: 微软雅黑;  padding-bottom: 25px;
+}
+.con_left{float:left;margin-right:9px;margin-left: 125px;width: 311px;background-color: #EDEDED;height: 150px}
+.con_addr{padding-left: 138px;padding-top: 6px;padding-right: 137px}
+.con_addr a:hover>img{
+   background-color: #ff00ff;
+}
+.con_com{color: #333333;font-family: 微软雅黑;font-size: 20px;padding-bottom: 40px}
+.add_det{font-size: 16px;font-family: 微软雅黑;text-align: center}
+
+.con_mid{float: left;width: 310px;background-color: #EDEDED;height: 150px;margin-right: 9px}
+.con_right{float: left;width: 310px;background-color: #EDEDED;height: 150px}
+
+.fonter{  width: 1200px;  margin: 0 auto;  }
+.fonter_main{  text-align:center;width: 100%;  overflow: hidden;  position: relative;  }
+.fonter_text{height: 70px;margin-left:8px;margin-top: 90px;background-color: #2f1e2e}
+.fonter_sz{float:left;padding-right:340px;padding-left: 60px;padding-top: 28px;color: #ffffff;font-size: 16px;font-family: 微软雅黑}
+.fonter-right{float:left;padding-left:0px;padding-right:40px;padding-top: 28px;color: #ffffff;font-size: 16px}
+
+
+.roll_main{width: 1200px;  margin: 0 auto;}
+.rollBox{padding-left:125px;text-align:center;width: 100%;  overflow: hidden;  position: relative;}
+.rollBox .LeftBotton{height:56px;width:30px;background:url("../images/左箭头.png") no-repeat 0px 5px;float:left;display:inline;margin:100px 0 0 0;cursor:pointer;}
+.rollBox .RightBotton{height:56px;width:30px;background:url("../images/右箭头.png") no-repeat 0px 5px;overflow:hidden;float:left;display:inline;margin:100px 0 0 0;cursor:pointer;}
+.rollBox .Cont{margin-right:15px;width:875px;overflow:hidden;float:left;}
+.rollBox .ScrCont{width:100000000px;}
+.rollBox .Cont .pic{width:auto;float:left;text-align:center;}
+.rollBox .Cont .pic img{padding:10px;background:#fff;display:block;margin:0 auto;}
+.rollBox .Cont a:link,.rollBox .Cont a:visited{color:#626466;text-decoration:none;}
+.rollBox .Cont a:hover{color:#f00;text-decoration:underline;}
+.rollBox #List1,.rollBox #List2{float:left;}
