@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>深圳市睿博智联科技有限公司</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="{{ static_url('css/index.css') }}">
 </head>
 <body>
 <div class="wrap">
@@ -14,7 +14,7 @@
             <div class="lg_srh">
                 <div class="logo_srh">
                     <div class="logo">
-                        <img src="images/logo.png">
+                        <img src="{{ static_url('images/logo.png') }}">
                     </div>
                     <div class="logo_text">
                         <a href="#">
@@ -52,8 +52,8 @@
                             </li>
                             <li >
                                 <a href="#">
-                                    <div class="nav-top">APP下载</div>
-                                    <div class="nav-bottom">DOWN</div>
+                                    <div class="nav-top">人才招聘</div>
+                                    <div class="nav-bottom">JOIN US</div>
                                 </a>
                             </li>
                             <li >
@@ -73,7 +73,7 @@
     <div class="show_pic">
         <div class="pic">
             <div class="show_img">
-                <img src="images/banner.png">
+                <img src="{{ static_url('images/banner.png') }}">
             </div>
         </div>
     </div>
@@ -86,11 +86,11 @@
                 <div class="com_intr">公司简介</div>
                 <p class="com_xi">深圳市睿博智联科技有限公司成立于2010年10月，总部位于深圳及海外办事处， 致力于2G\3G以及4G的移动设备的研发和设计，核心技术团队人员均有十一年以上的从业经验。 主要研发设计的产品有智能穿戴、移动支付、智能家居、智能硬件，以及服务运营系统的移动设备服务提供商，服务过的主要品牌和客户有海尔、飞利浦、鼎瑄、柏颐等。</p>
                 <div class="com_detail">
-                    <a href="#"><img src="images/learn_more.png"></a>
+                    <a href="#"><img src="{{ static_url('images/learn_more.png') }}"></a>
                 </div>
             </div>
             <div class="com_pic">
-                <img src="images/photo_intro.png">
+                <img src="{{ static_url('images/photo_intro.png') }}">
             </div>
         </div>
     </div>
@@ -99,7 +99,7 @@
     <div class="com_cult">
         <div class="com_culture">
             <div class="cult_pic">
-                <img src="images/company_culture.png" />
+                <img src="{{ static_url('images/company_culture.png') }}" />
             </div>
             <div class="cult_detail">
                 <div class="com_pro">COMPANY&nbsp;PROFILE</div>
@@ -131,22 +131,22 @@
                     <div id="List1">
                         <!-- picture list begin -->
                         <div class="pic">
-                            <a href="/" target="_blank"><img src="images/1.png"  /></a>
+                            <a href="/" target="_blank"><img src="{{ static_url('images/1.png') }}"  /></a>
                         </div>
                         <div class="pic">
-                            <a href="/" target="_blank"><img src="images/2.png"  /></a>
+                            <a href="/" target="_blank"><img src="{{ static_url('images/2.png') }}"  /></a>
                         </div>
                         <div class="pic">
-                            <a href="/" target="_blank"><img src="images/3.png"  /></a>
+                            <a href="/" target="_blank"><img src="{{ static_url('images/3.png') }}"  /></a>
                         </div>
                         <div class="pic">
-                            <a href="/" target="_blank"><img src="images/4.png" /></a>
+                            <a href="/" target="_blank"><img src="{{ static_url('images/4.png') }}" /></a>
                         </div>
                         <div class="pic">
-                            <a href="/" target="_blank"><img src="images/5.png"  /></a>
+                            <a href="/" target="_blank"><img src="{{ static_url('images/5.png') }}"  /></a>
                         </div>
                         <div class="pic">
-                            <a href="/" target="_blank"><img src="images/6.png"  /></a>
+                            <a href="/" target="_blank"><img src="{{ static_url('images/6.png') }}"  /></a>
                         </div>
                         <!-- picture list end -->
                     </div>
@@ -157,7 +157,7 @@
         </div>
         <div class="more_pro">
             <a href="#">
-                <img src="images/more.png">
+                <img src="{{ static_url('images/more.png') }}">
             </a>
         </div>
     </div>
@@ -172,7 +172,7 @@
             <div class="con_left">
                 <div class="con_addr">
                     <a href="#">
-                        <img src="images/address.png">
+                        <img src="{{ static_url('images/address.png') }}">
                     </a>
                 </div>
                 <p class="con_com">公司地址</p>
@@ -182,7 +182,7 @@
             <div class="con_mid">
                 <div class="con_addr">
                     <a href="#">
-                        <img src="images/tel.png">
+                        <img src="{{ static_url('images/tel.png') }}">
                     </a>
                 </div>
                 <p class="con_com">联系方式</p>
@@ -192,7 +192,7 @@
             <div class="con_right">
                 <div class="con_addr">
                     <a href="#">
-                        <img src="images/email.png">
+                        <img src="{{ static_url('images/email.png') }}">
                     </a>
                 </div>
                 <p class="con_com">电子邮箱</p>
@@ -204,7 +204,10 @@
     <div class="fonter">
         <div class="fonter_main">
             <div class="fonter_text">
-                <p class="fonter_sz">粤ICP备16043959号 版权所有：深圳市睿博智联科技有限公司</p>
+                <a href="http://www.miitbeian.gov.cn">
+                    <p class="fonter-right">粤ICP备16043959号</p>
+                </a>
+                <p class="fonter_sz">Copyright © 2016 深圳市睿博智联科技有限公司 版权所有</p>
                 <a href="#">
                     <p class="fonter-right">关于我们</p>
                 </a>
@@ -220,5 +223,5 @@
     <!--fonter end-->
 </div>
 </body>
-<script src="js/rotationPic.js"></script>
+<script src="{{ static_url('js/rotationPic.js') }}"></script>
 </html>
