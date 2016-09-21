@@ -78,10 +78,10 @@ a{  text-decoration:none;  }
 .con_right{float: left;width: 310px;background-color: #EDEDED;height: 150px}
 
 .fonter{  width: 1200px;  margin: 0 auto;  }
-.fonter_main{  text-align:center;width: 100%;  overflow: hidden;  position: relative;  }
-.fonter_text{height: 70px;margin-left:88px;margin-top: 90px;background-color: #2f1e2e}
-.fonter_sz{float:left;padding-right:120px;padding-left: 60px;padding-top: 28px;color: #ffffff;font-size: 16px;font-family: 微软雅黑}
-.fonter-right{float:left;padding-left:10px;padding-right:30px;padding-top: 28px;color: #ffffff;font-size: 16px}
+.fonter_main{margin-bottom:30px; text-align:center;width: 93%;  overflow: hidden;  position: relative;  }
+.fonter_text{height: 50px;margin-left:88px;margin-top: 90px;background-color: #2e2e2e}
+.fonter_sz{float:left;padding-right:120px;padding-left: 60px;padding-top: 13px;color: #ffffff;font-size: 16px;font-family: 微软雅黑}
+.fonter-right{float:left;padding-left:10px;padding-right:30px;padding-top: 15px;color: #ffffff;font-size: 16px}
 
 
 .roll_main{width: 1200px;  margin: 0 auto;}

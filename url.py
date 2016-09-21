@@ -6,5 +6,7 @@ from handlers.frontend.index import *
 url = [
     (r'/', IndexHandler),
     (r'/about', AboutHandler),
-    (r'/error', ErrorHandler),
+    # (r'/error', ErrorHandler),
+    # (r'/legal_notice', LegalNoticeHandler),
+    (r'.*', PageNotFoundHandler),
 ]

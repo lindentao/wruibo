@@ -3,14 +3,17 @@
 
 import tornado.web
 
-class IndexHandler(tornado.web.RequestHandler):
+class BaseHandler(tornado.web.RequestHandler):
+    pass
+
+class IndexHandler(BaseHandler):
     def get(self):
         self.render('index.html')
 
-class AboutHandler(tornado.web.RequestHandler):
+class AboutHandler(BaseHandler):
     def get(self):
         self.render('about.html')
 
-class ErrorHandler(tornado.web.RequestHandler):
+class PageNotFoundHandler(BaseHandler):
     def get(self):
         self.render('error.html')
