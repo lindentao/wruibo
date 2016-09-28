@@ -22,7 +22,7 @@ a{  text-decoration:none;  }
 .nav li:hover .nav-bottom{color:#ff0000;  background-image: url("../images/选中横条.png");  background-repeat:no-repeat;  background-position: bottom;  }
 
 .show_pic{  width: 1200px;  margin: 0 auto;  }
-.pic{  width: 100%;  overflow: hidden;  position: relative;  }
+.pic{  width: 93%;  overflow: hidden;  position: relative;  }
 .show_img{  padding: 0px 0px 60px 88px;  }
 .banner_img{  padding: 0px 0px 30px 88px;  }
 .com_main{  width: 1200px;  margin: 0 auto;  }
@@ -98,7 +98,7 @@ a{  text-decoration:none;  }
 
 .main_page{padding-left:88px;}
 .view_text{padding-left:80px;}
-.view_text span{color: #272727;font-family: 微软雅黑;font-size: 22px; display:inline-block}
+.view_text span{color: #272727;font-family: 微软雅黑;font-size: 22px; display:inline-block; }
 
 .view_nav{padding-left:81px; padding-top:15px;}
 .view_nav li{  float: left;  position: relative;  padding: 12px 118px;  text-align: center; background-image: url("../images/hilitecolor.png"); display:inline-block; cursor:pointer;}
@@ -121,3 +121,37 @@ a{  text-decoration:none;  }
 .about_pic{padding-top:20px 20px 0 0; float:left;}
 .about_p{padding:0 0 25px 20px; color: #4d4d4d; font-size: 16px;font-family: 微软雅黑; float:right;}
 
+.content {height:auto; overflow:hidden; padding:60px 0 50px 80px;}
+.tt {color:#272727; font-size: 20px; font-family: 微软雅黑;}
+.joblist {color:#4d4d4d; font-size: 16px; font-family: 宋体;}
+table {width:100%;}
+
+.pages {padding:0 0 100px 333px; color:#323232; font-size: 16px; font-family: 微软雅黑; text-align:center;}
+.home_page {text-align:center; line-height:200%;
+    height:36px; width:70px;
+    background-image:url("../images/home_page.png");
+    background-repeat:no-repeat;
+    float: left;  position: relative;
+    }
+.next_page {text-align:center; line-height:200%;
+    height:36px; width:90px;
+    background-image:url("../images/next_page.png");
+    background-repeat:no-repeat;
+    float: left;  position: relative;
+    }
+.page {text-align:center; line-height:200%;
+    height:36px; width:40px;
+    background-image:url("../images/page.png");
+    background-repeat:no-repeat;
+    float: left;  position: relative;
+    }
+.recruit_pic {padding:60px 0 0 80px;float: left;  position: relative;}
+.recruit_word {padding:60px 0 0 65px; float: left;width:48%;
+    position: relative;color:#272727; font-size: 20px; font-family: 微软雅黑;}
+.recruit_word_head {padding:10px 0 0px 12px;height:30px;}
+.recruit_word_title {width:350px;float: left;  position: relative; }
+.recruit_word_uptime {float: left;  position: relative; color:#4d4d4d; font-size: 16px; font-family: 宋体;}
+.recruit_pic_job {height:60px;}
+.recruit_pic_red {padding-top:30px;float: left;  position: relative;}
+.recruit_word_desc {padding-top:30px;padding-left:20px;float: left;  position: relative;}
+.recruit_word_info {padding:30px 0 0 20px; color:#272727; font-size: 16px; font-family: 宋体;}
