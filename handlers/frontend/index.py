@@ -3,6 +3,8 @@
 
 import tornado.web
 
+from optsql.models import *
+
 class BaseHandler(tornado.web.RequestHandler):
     pass
 
@@ -14,13 +16,21 @@ class AboutHandler(BaseHandler):
     def get(self):
         self.render('about.html')
 
+class ProductHandler(BaseHandler):
+    def get(self):
+        self.render('product.html')
+
 class RecruitHandler(BaseHandler):
     def get(self):
-        self.render('recruit.html')
+        jobs = []
+        for job in Job.objects.order_by('-time'):
+            jobs.append(job)
+        self.render('recruit.html', jobs=jobs)
 
-class DriverHandler(BaseHandler):
-    def get(self):
-        self.render('driver.html')
+class JobInfoHandler(BaseHandler):
+    def get(self, jid=None):
+        job = Job.objects.get(pk=jid)
+        self.render('job.html', job=job)
 
 class SoftwareHandler(BaseHandler):
     def get(self):
@@ -33,3 +43,5 @@ class HardwareHandler(BaseHandler):
 class PageNotFoundHandler(BaseHandler):
     def get(self):
         self.render('error.html')
+
+

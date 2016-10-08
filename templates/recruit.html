@@ -19,45 +19,23 @@
                 <div class="tt">
                     <table>
                         <tr>
-                          <td width="30%;">职位名称</td>
-                          <td>职位类别</td>
-                          <td>工作地点</td>
-                          <td>更新日期</td>
+                            <td width="30%;">职位名称</td>
+                            <td width="24%;">职位类别</td>
+                            <td width="25%;">工作地点</td>
+                            <td>更新日期</td>
                         </tr>
                     </table>
                 </div>
                 <div class="joblist">
                     <table>
+                        {% for job in jobs %}
                         <tr>
-                          <td width="30%;"><a href="">手机软件测试工程师</td>
-                          <td width="26%;">测试工程师</td>
-                          <td width="23%;">深圳</td>
-                          <td>09-20</td>
+                            <td width="30%;"><a href="/job/{{job.id}}">{{ job.name }}</td>
+                            <td width="26%;">{{ job.type }}</td>
+                            <td width="23%;">{{ job.address }}</td>
+                            <td>{{ job.time.strftime('%Y-%m-%d') }}</td>
                         </tr>
-                        <tr>
-                          <td width="30%;"><a href="">手机堆叠工程师</td>
-                          <td width="26%;">研发工程师</td>
-                          <td width="23%;">深圳</td>
-                          <td>09-20</td>
-                        </tr>
-                        <tr>
-                          <td width="30%;"><a href="hardware">高级硬件工程师</td>
-                          <td width="26%;">研发工程师</td>
-                          <td width="23%;">深圳</td>
-                          <td>09-20</td>
-                        </tr>
-                        <tr>
-                          <td width="30%;"><a href="software">高级软件工程师</td>
-                          <td width="26%;">研发工程师</td>
-                          <td width="23%;">深圳</td>
-                          <td>09-20</td>
-                        </tr>
-                        <tr>
-                          <td width="30%;"><a href="driver">软件驱动工程师</a></td>
-                          <td width="26%;">研发工程师</td>
-                          <td width="23%;">深圳</td>
-                          <td>09-20</td>
-                        </tr>
+                        {% end %}
                     </table>
                 </div>
 
